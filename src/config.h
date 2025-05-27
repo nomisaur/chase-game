@@ -1,0 +1,37 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// DEBUG:
+#define DRAW_GUY_VISION false
+#define TURN_OFF_GUY_MOVEMENT false
+#define TURN_ON_STAMINA false
+// -----
+
+#define WINDOW_WIDTH 1600
+#define WINDOW_HEIGHT 900
+// #define DIAGNAL_SCALE 0.70710678f
+
+#define PLAYER_RADIUS 20
+#define PLAYER_SPEED 4.0f
+#define BOOST_SPEED 20.0f
+#define BOOST_DURATION 0.05
+#define BOOST_RECOVERY_TIME 1.5
+#define BOOST_RECOVERY_TIME_FROM_ZERO 3.0
+#define INITIAL_STAMINA 10
+#define STAMINA_INCREMENT 10
+
+#define GUY_LIMIT 100
+#define INITIAL_GUY_AMOUNT 5
+#define GUY_INCREMENT 5
+
+#define GUY_RADIUS 10
+#define GUY_SPEED_LIMIT 10.0f
+#define GUY_INITIAL_SPEED 1.0f
+#define GUY_SPEED_INCREMENT 1.0f
+
+#define GUY_VISION_DISTANCE 200
+#define GUY_VISION_WIDTH 90
+
+#define OBSTACLE_LIMIT 3
+
+#endif
